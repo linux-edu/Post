@@ -1,13 +1,13 @@
 ![Shell Script](https://img.shields.io/badge/linux-edu-red.svg)
 
-🖥️ **Linux Command #1: `pwd`**  
+🖥️ **Linux Command #2: `pwd`**  
 
 💡 **What it does**: Shows your current directory.  
 
 **Try it!** Open your terminal and type:  
 
 ```bash
-whoami
+pwd
 ```  
 $  Output: /home/your-user-name  
 
