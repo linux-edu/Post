@@ -9,7 +9,7 @@
 ```bash
 whoami
 ```  
-$  Output: /home/yourname  
+$  Output: /home/your-user-name  
 
 🔹 **Pro Tip**: Combine with `ls` to see where you are & what’s there!  
 
