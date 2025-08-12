@@ -1,7 +1,5 @@
 ![Shell Script](https://img.shields.io/badge/linux-edu-red.svg)
 
-Here’s a **ready-to-post Facebook template** explaining `whoami`, `pwd`, `ls`, and `cd` in a **simple, engaging format** with emojis, code blocks, and a call-to-action:
-
 ---
 
 ### **🖥️ Linux Basics: Know Your Terminal!**  
