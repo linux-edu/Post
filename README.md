@@ -1,17 +1,61 @@
 ![Shell Script](https://img.shields.io/badge/linux-edu-red.svg)
 
-🖥️ **Linux Command #2: `pwd`**  
+Here’s a **ready-to-post Facebook template** explaining `whoami`, `pwd`, `ls`, and `cd` in a **simple, engaging format** with emojis, code blocks, and a call-to-action:
 
-💡 **What it does**: Shows your current directory.  
+---
 
-**Try it!** Open your terminal and type:  
+### **🖥️ Linux Basics: Know Your Terminal!**  
+**4 commands every beginner should learn:**  
 
+#### **1️⃣ `whoami`**  
+🔹 **What it does**: Shows your current username.  
+💻 **Try it**:  
+```bash
+whoami
+```  
+📌 *Example output:*  
+```bash
+user
+```  
+
+#### **2️⃣ `pwd`**  
+🔹 **What it does**: Prints your current folder path (*"Where am I?"*).  
+💻 **Try it**:  
 ```bash
 pwd
 ```  
-$  Output: /home/your-user-name  
+📌 *Example output:*  
+```bash
+/home/user
+```  
 
-🔹 **Pro Tip**: Combine with `ls` to see where you are & what’s there!  
+#### **3️⃣ `ls`**  
+🔹 **What it does**: Lists files/folders in your current directory.  
+💻 **Try it**:  
+```bash
+ls
+```  
+🔎 **Pro Tip**: Use `ls -a` to show hidden files (like `.bashrc`)!  
+
+#### **4️⃣ `cd`**  
+🔹 **What it does**: Changes directory (*"Move somewhere else!"*).  
+💻 **Try it**:  
+```bash
+cd Documents
+```  
+📌 *Now you’re in `/home/user/Documents`!*  
+
+---
+
+### **📢 Call-to-Action**  
+✅ **Like** if this helped you!  
+🔔 **Follow** for daily Linux tips.  
+📥 **Want a FREE PDF cheat sheet?** Comment "LINUX" below!  
+
+*(Attach a **screenshot** of these commands running in Termux/Ubuntu for extra clarity!)*  
+
+---
+
 
 👍 **Like** if you learned something!  
 
