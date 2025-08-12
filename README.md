@@ -52,7 +52,5 @@ cd Documents
 🔔 **Follow** for daily Linux tips.  
 📥 **Want a FREE PDF cheat sheet?** Comment "LINUX" below!  
 
-*(Attach a **screenshot** of these commands running in Termux/Ubuntu for extra clarity!)*  
-
 ---
 
