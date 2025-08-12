@@ -56,9 +56,3 @@ cd Documents
 
 ---
 
-
-👍 **Like** if you learned something!  
-
-🔔 **Follow** for daily commands.  
-
-📚 **Want all commands in one PDF?** Comment "BOOK"!  
