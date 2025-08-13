@@ -1,7 +1,3 @@
-![Shell Script](https://img.shields.io/badge/linux-edu-red.svg)
-
----
-
 ### **🖥️ Linux Basics: Know Your Terminal!**  
 **4 commands every beginner should learn:**  
 
