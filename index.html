@@ -1,1 +1,64 @@
-<h1>Hello Linux-edu</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="index.html.css">
+  <style>
+  </style>
+</head>
+
+<body>
+<div class="grid-container">
+
+  <!-- Header -->
+  <div class="item1">
+   <h1>Dash</h1>
+    <div class="dark-mode-toggle" style="position: absolute; top: 20px; right: 20px;">
+      <label class="toggle-switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <!-- Sidebar Notes -->
+  <div class="item2">
+    <a href="site-1.html" target="_blank">Site 1.</a>
+    <a href="site-2.html" target="_blank">Site 2.</a>
+    <a href="site-3.html" target="_blank">Site 3.</a>
+  </div>
+
+  <!-- Footer -->
+  <div class="item5">© 2025 Live Edu Camp. All rights reserved.</div>
+</div>
+
+<script>
+  // Dark Mode Toggle Functionality
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  const body = document.body;
+
+  // Check for saved user preference or use system preference
+  const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+  const currentTheme = localStorage.getItem('theme');
+
+  if (currentTheme === 'dark' || (!currentTheme && prefersDarkScheme.matches)) {
+    body.classList.add('dark-mode');
+    darkModeToggle.checked = true;
+  }
+
+  // Toggle dark mode
+  darkModeToggle.addEventListener('change', function() {
+    if (this.checked) {
+      body.classList.add('dark-mode');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      body.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+    }
+  });
+</script>
+</body>
+</html>
