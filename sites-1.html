@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Hive - Honey Shop</title>
+  <script>
+    // Toggle light/dark mode
+    function toggleTheme() {
+      document.documentElement.classList.toggle("dark");
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #fff8e7;
+      --text: #2c2c2c;
+      --card: #fff;
+      --accent: #f4b400;
+    }
+    .dark {
+      --bg: #1a1a1a;
+      --text: #f1f1f1;
+      --card: #2a2a2a;
+      --accent: #ffd54f;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background: var(--card);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: var(--accent);
+    }
+    header button {
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+    }
+    .hero p {
+      opacity: 0.8;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    @media(min-width: 700px) {
+      .products {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 1rem;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 0.75rem;
+    }
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+    .card button {
+      margin-top: 0.5rem;
+      background: var(--accent);
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Golden Hive</h1>
+    <button onclick="toggleTheme()">🌙 / ☀️</button>
+  </header>
+
+  <section class="hero">
+    <h2>Pure Organic Honey</h2>
+    <p>Straight from our hives to your home – sweet, natural, and golden.</p>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606851092203-5c5e2c5e42d4" alt="Raw Honey Jar">
+      <h3>Raw Honey Jar</h3>
+      <p>$12.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" alt="Honeycomb">
+      <h3>Fresh Honeycomb</h3>
+      <p>$18.50</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4" alt="Flavored Honey">
+      <h3>Lavender Honey</h3>
+      <p>$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Golden Hive. All Rights Reserved.
+  </footer>
+</body>
+</html>
