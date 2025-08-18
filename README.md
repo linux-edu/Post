@@ -1,4 +1,3 @@
-──╼ $cat cmd5.txt
 🖥️ Linux System Management Essentials
 
 6 commands to master your machine!
