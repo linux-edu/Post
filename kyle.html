@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBop's CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .header {
+            background-color: #1f2937;
+            color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+        }
+        .section {
+            background: white;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #1f2937;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 0.5rem;
+        }
+        .contact-links a {
+            color: #2563eb;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        .skill, .experience, .education, .project {
+            margin-bottom: 1rem;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                padding: 0;
+            }
+            .section, .header {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1 class="text-3xl font-bold">Kyle Juan Adams</h1>
+            <p class="text-lg">Security Officer</p>
+            <div class="contact-links mt-2">
+                <a href="#">your.email@example.com</a> |
+                <a href="#">068 111 7390</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="text-xl font-semibold">Summary</h2>
+            <p>Dedicated and reliable professional with experience in security services and a strong work ethic. Skilled in monitoring, problem-solving, and ensuring safety. Seeking opportunities in the security guarding industry or related fields.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="text-xl font-semibold">Skills</h2>
+            <ul class="list-disc pl-5">
+                <li class="skill">Surveillance and Monitoring</li>
+                <li class="skill">Emergency Response</li>
+                <li class="skill">Access Control</li>
+                <li class="skill">Customer Service</li>
+                <li class="skill">Teamwork and Communication</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="text-xl font-semibold">Experience</h2>
+            <div class="experience">
+                <h3 class="font-medium">Hotel Security Officer - Pepper Club Hotel</h3>
+                <p class="text-gray-600">August 2018 - March 2020</p>
+                <ul class="list-disc pl-5">
+                    <li>Duties: Cashier, Access Control using CCTV technology, patrolling with report writing.</li>
+                    <li>Help Desk, Assisting Hotel guests</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3 class="font-medium">Security Officer - Recall Security</h3>
+                <p class="text-gray-600">June 2017 - June 2018</p>
+                <ul class="list-disc pl-5">
+                    <li>Duties: Special events, crowd controlling. CCTV monitoring.</li>
+                    <li>Patrolling & report writing.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3 class="font-medium">Merchandiserer - Bronn Supermarket Spar</h3>
+                <p class="text-gray-600">June 2016 - June 2019</p>
+                <ul class="list-disc pl-5">
+                    <li>Duties: Promote sales, Stock control, Assisting customers .</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="text-xl font-semibold">Education</h2>
+            <div class="education">
+                <h3 class="font-medium">High School Diploma: Eli Whiney Techical High School (USA)</h3>
+                <p class="text-gray-600">2015</p>
+                <p>Relevant Coursework: Mathematics, Science, History, Computer Science, Food service, Restaurant Management.</p>
+            </div>
+            <div class="education">
+                <h3 class="font-medium">PSIRA Grades B, C, D, E.</h3>
+                <p class="text-gray-600">2017</p>
+                <p>Registration Number: 2817354</p>
+            </div>
+            <div class="education">
+                <h3 class="font-medium">CCTV Course.</h3>
+                <p class="text-gray-600">2020</p>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
